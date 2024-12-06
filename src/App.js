@@ -1,14 +1,12 @@
-
-import './App.css';
-import HomePage from './pages/Homepage';
+import "./App.css";
+import { Secondscounter } from "./components/Secondscounter";
 
 const App = () => {
   return (
-    
-    <HomePage />
-    
-    
+    <>
+      <Secondscounter />
+    </>
   );
-}
+};
 
 export default App;
