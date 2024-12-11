@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Badge, Button, Container } from "react-bootstrap";
 
-export const Secondscounter = () => {
+export const SecondsCounter = () => {
   const [seconds, setSeconds] = useState(0);
   console.log(seconds);
 
@@ -20,7 +20,7 @@ export const Secondscounter = () => {
       </Container>
 
       <Container>
-        <Button onclick={() => setSeconds(seconds + 1)}>+</Button>
+        <Button onClick={() => setSeconds(seconds + 1)}>+</Button>
         <Button onClick={() => setSeconds(seconds - 1)}>-</Button>
       </Container>
     </>
